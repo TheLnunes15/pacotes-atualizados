@@ -4,11 +4,11 @@ sudo pacman-key --init
 sudo pacman-key --populate archlinux
 echo "Feito."
 
-echo "Instalando LDAP"
-cd LDAP/
-sudo pacman -U *.tar.xz --needed --noconfirm
-cd ..
-echo "Feito."
+#echo "Instalando LDAP"
+#cd LDAP/
+#sudo pacman -U *.tar.xz --needed --noconfirm
+#cd ..
+#echo "Feito."
 
 echo "Instalando LightDM"
 cd lightdm/
